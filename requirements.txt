@@ -8,4 +8,6 @@ torch==2.4.1
 google-generativeai
 pandas==1.5.3
 pyyaml
+pytest
 duckdb
+pytest-mock
