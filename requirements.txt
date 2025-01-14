@@ -1,0 +1,13 @@
+streamlit
+pandas
+matplotlib
+seaborn
+pandasai==2.4.1
+numpy==1.26.4
+torch==2.4.1
+google-generativeai
+pandas==1.5.3
+pyyaml
+pytest
+duckdb
+pytest-mock
