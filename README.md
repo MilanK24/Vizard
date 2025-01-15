@@ -9,7 +9,9 @@ Vizard is an intelligent tool designed to analyze CSV files and provide comprehe
 * Chatbot Interaction: Ask questions about your data and receive detailed, actionable insights.
 This project enables users to understand and manipulate datasets effortlessly, making data exploration efficient and user-friendly.
 
-**TechStack** [![My Skills](https://skillicons.dev/icons?i=docker,py,vscode,windows)](https://skillicons.dev)
+**TechStack** 
+
+[![My Skills](https://skillicons.dev/icons?i=docker,py,vscode,windows)](https://skillicons.dev)
 
 
 ## Table of Contents
