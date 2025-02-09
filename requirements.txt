@@ -11,3 +11,6 @@ pyyaml
 pytest
 duckdb
 pytest-mock
+huggingface_hub 
+pymongo 
+bcrypt
