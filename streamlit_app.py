@@ -21,7 +21,7 @@ import matplotlib
 import streamlit as st
 from pymongo import MongoClient
 import bcrypt
-
+st.set_page_config(page_title="VIZARD", page_icon="⚔️")
 MONGO_URI = "mongodb+srv://milan:milan@daytona.2kcr9.mongodb.net/"
 client = MongoClient(MONGO_URI)
 db = client["user_database"]  
@@ -48,7 +48,7 @@ def register_user(username, password):
     users_collection.insert_one({"username": username, "password": hashed_pw})
     return "User registered successfully!"
 
-st.title("🔐 User Authentication with MongoDB")
+st.title("🔐 User Authentication ")
 
 if "logged_in" not in st.session_state:
     st.session_state["logged_in"] = False
